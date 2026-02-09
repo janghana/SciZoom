@@ -2,21 +2,26 @@
 
 ### A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era
 
+<!-- 
 <p align="center">
+  <a href="https://janghana.github.io/SciZoom">
+    <img src="https://img.shields.io/badge/🌐_Project-Page-4285F4?style=flat&labelColor=white&color=4285F4">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://openreview.net/forum?id=XXXXX">
+    <img src="https://img.shields.io/badge/📄_Paper-KDD_2026-DC3545?style=flat&labelColor=white&color=DC3545">
+  </a>
+  &nbsp;&nbsp;
   <a href="https://huggingface.co/datasets/hanjang/SciZoom">
-    <img alt="Dataset" src="https://img.shields.io/badge/🤗%20Dataset-SciZoom-ffd21e?style=flat-square">
+    <img src="https://img.shields.io/badge/🤗_Dataset-SciZoom-FFD21E?style=flat&labelColor=white&color=FFD21E">
   </a>
-  <a href="https://github.com/janghana/SciZoom">
-    <img alt="Code" src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github">
-  </a>
-  <a href="#">
-    <img alt="Paper" src="https://img.shields.io/badge/Paper-KDD%202026-red?style=flat-square">
-  </a>
-  <a href="#">
-    <img alt="License" src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey?style=flat-square">
-  </a>
-</p>
+</p> -->
 
+<p align="center">
+  <a href="https://janghana.github.io/SciZoom">🌐 Project</a> | 
+  <a href="https://openreview.net/forum?id=XXXXX">📄 Paper</a> | 
+  <a href="https://huggingface.co/datasets/hanjang/SciZoom">🤗 Dataset</a>
+</p>
 
 ![Overview](overview.png)
 
