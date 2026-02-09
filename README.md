@@ -1,11 +1,22 @@
-# SciZoom: A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era
+# 🔬 SciZoom: A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era
+
+### A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era
 
 <p align="center">
-  <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv"></a>
-  <a href="https://huggingface.co/datasets/hanjang/SciZoom"><img src="https://img.shields.io/badge/🤗_HuggingFace-Dataset-yellow?style=for-the-badge" alt="HuggingFace"></a>
-  <a href="https://github.com/snuh-rad-aicon/SciZoom"><img src="https://img.shields.io/badge/GitHub-Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="YOUR_PROJECT_PAGE_URL"><img src="https://img.shields.io/badge/Project-Page-blue?style=for-the-badge" alt="Project Page"></a>
+  <a href="https://huggingface.co/datasets/hanjang/SciZoom">
+    <img alt="Dataset" src="https://img.shields.io/badge/🤗%20Dataset-SciZoom-ffd21e?style=flat-square">
+  </a>
+  <a href="https://github.com/janghana/SciZoom">
+    <img alt="Code" src="https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github">
+  </a>
+  <a href="#">
+    <img alt="Paper" src="https://img.shields.io/badge/Paper-KDD%202026-red?style=flat-square">
+  </a>
+  <a href="#">
+    <img alt="License" src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey?style=flat-square">
+  </a>
 </p>
+
 
 ![Overview](overview.png)
 
@@ -19,13 +30,13 @@
 ## Quick Start
 
 ### Installation
-
 ```bash
-pip install datasets transformers torch
+git clone https://github.com/janghana/SciZoom.git
+cd SciZoom
+bash setup_scizoom.sh
 ```
 
 ### Load Dataset
-
 ```python
 from datasets import load_dataset
 
@@ -84,9 +95,9 @@ See [`tutorials.ipynb`](tutorials.ipynb) for:
 
 ## Acknowledgments
 
-This work was conducted at the [AICON Lab](https://snuh-rad-aicon.github.io/) (Advanced Imaging and Computational Neuroimaging Laboratory), Department of Radiology, Seoul National University Hospital.
+This work was conducted at the [AICON Lab](https://sites.google.com/view/snuhradaicon/research-team/researchers?authuser=0) (Advanced Imaging and Computational Neuroimaging Laboratory), Department of Radiology, Seoul National University Hospital.
 
 ## Contact
 
-- **Han Jang** - [janghana](https://github.com/janghana) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=b6IRRlsAAAAJ)
-- **AICON Lab** - [snuh-rad-aicon](https://github.com/snuh-rad-aicon) | [Website](https://snuh-rad-aicon.github.io/)
+- **Han Jang** - hanjang@snu.ac.kr | [janghana](https://janghana.github.io/) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=b6IRRlsAAAAJ)
+- **AICON Lab** - [snuh-rad-aicon](https://github.com/snuh-rad-aicon)
