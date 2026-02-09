@@ -49,7 +49,7 @@ for paper in dataset["test"]:
     print(paper["era"])  # 'pre-llm' or 'post-llm'
 ```
 
-For detailed data exploration and analysis, see [`tutorials.ipynb`](tutorials.ipynb).
+For detailed data exploration and analysis, see [`tutorials.ipynb`](notebook/tutorials.ipynb).
 
 ## LLM Inference
 
@@ -71,7 +71,7 @@ See official model card: https://huggingface.co/nvidia/NV-Embed-v2
 
 ## Tutorials
 
-See [`tutorials.ipynb`](tutorials.ipynb) for:
+See [`tutorials.ipynb`](notebook/tutorials.ipynb) for:
 - Data loading and exploration
 - Era-based analysis & visualization
 - Hierarchical summarization evaluation
