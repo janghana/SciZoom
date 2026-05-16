@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://janghana.github.io/SciZoom">🌐 Project</a> | 
-  <a href="https://openreview.net/forum?id=XXXXX">📄 Paper</a> | 
+  <a href="https://arxiv.org/abs/2603.16131">📄 Paper</a> | 
   <a href="https://huggingface.co/datasets/hanjang/SciZoom">🤗 Dataset</a>
 </p>
 
