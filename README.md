@@ -2,29 +2,6 @@
 
 ### A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era
 
-<!-- 
-<p align="center">
-  <a href="https://janghana.github.io/SciZoom">
-    <img src="https://img.shields.io/badge/🌐_Project-Page-4285F4?style=flat&labelColor=white&color=4285F4">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://openreview.net/forum?id=XXXXX">
-    <img src="https://img.shields.io/badge/📄_Paper-KDD_2026-DC3545?style=flat&labelColor=white&color=DC3545">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://huggingface.co/datasets/hanjang/SciZoom">
-    <img src="https://img.shields.io/badge/🤗_Dataset-SciZoom-FFD21E?style=flat&labelColor=white&color=FFD21E">
-  </a>
-</p> -->
-
-<p align="center">
-  <a href="https://janghana.github.io/SciZoom">🌐 Project</a> | 
-  <a href="https://arxiv.org/abs/2603.16131">📄 Paper</a> | 
-  <a href="https://huggingface.co/datasets/hanjang/SciZoom">🤗 Dataset</a>
-</p>
-
-![Overview](overview.png)
-
 ## TL;DR
 
 **SciZoom** is a large-scale benchmark for hierarchical scientific summarization comprising **44,946 papers** from NeurIPS, ICLR, ICML, and EMNLP (2020-2025), stratified into Pre-LLM and Post-LLM eras.
@@ -36,7 +13,6 @@
 
 ### Installation
 ```bash
-git clone https://github.com/janghana/SciZoom.git
 cd SciZoom
 bash setup_scizoom.sh
 ```
@@ -45,7 +21,7 @@ bash setup_scizoom.sh
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("hanjang/SciZoom")
+dataset = load_dataset("anonymous-science/SciZoom")
 
 for paper in dataset["test"]:
     print(paper["title"])
@@ -82,27 +58,8 @@ See [`tutorials.ipynb`](notebook/tutorials.ipynb) for:
 - Hierarchical summarization evaluation
 - Cross-granularity similarity analysis
 
-## Citation
-
-```bibtex
-@article{jang2026scizoom,
-  title={SciZoom: A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era},
-  author={Jang, Han and Lee, Junhyeok and Choi, Kyu Sung},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2026}
-}
-```
-
 ## License
 
 - **Dataset**: [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
 - **Code**: MIT License
 
-## Acknowledgments
-
-This work was conducted at the [AICON Lab](https://sites.google.com/view/snuhradaicon/research-team/researchers?authuser=0) (Advanced Imaging and Computational Neuroimaging Laboratory), Department of Radiology, Seoul National University Hospital.
-
-## Contact
-
-- **Han Jang** - hanjang@snu.ac.kr | [janghana](https://janghana.github.io/) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=b6IRRlsAAAAJ)
-- **AICON Lab** - [snuh-rad-aicon](https://github.com/snuh-rad-aicon)
